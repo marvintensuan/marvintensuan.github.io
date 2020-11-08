@@ -1,8 +1,3 @@
-@font-face{
-    font-family: Streetvertising;
-    src: "https://github.com/marvintensuan/marvintensuan.github.io/blob/gh-pages/fonts/streetvertising_public/Streetvertising%20Medium%20public.ttf";
-}
-
 body {margin: 0;
     background-color: #d3d3d3;
     font-family: sans-serif;
@@ -17,7 +12,7 @@ body {margin: 0;
 }
 
 #grid-header-logo{
-    font: 36px Streetvertising;
+    font: 36px Righteous;
     grid-column-start: 1;
     grid-column-end: 2;
     margin-left: 5%;
