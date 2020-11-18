@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+		<title>Marvin Tensuan &mdash; Curriculum Vitae</title>
+{% block content %}
+
+		<!--- Title and Social Media Links -->
+		<div class="grid-body-title">
+			<p style="font-size: 3em; font-weight: bold; margin-bottom: 0;">Marvin D. Tensuan</p>
+			<p style="font-size: 2em; margin-bottom: 20px;">Curriculum Vitae</p>
+			<nav>
+				<a href="https://www.linkedin.com/in/marvintensuan">IN</a>
+				<a href="mailto:marvintensuan@outlook.com">M</a>
+				<a href="https://github.com/marvintensuan">GH</a>
+			</nav>
+		</div>
+		<!--- Work Experience-->
+		<div class="contents-default">
+			<div class="contents-label"> Work Experience</div>
+			<div>
+				{% include 'body_workexperience.html' %}
+			</div>
+		</div>
+		<!--- Professional Certifications-->
+		<div class="contents-default">
+			<div class="contents-label"> Professional Certifications and Affiliations</div>
+			<div>
+				{% include 'body_certs.html' %}
+			</div>
+		</div>
+		<!--- Training and Development-->
+		<div class="contents-default">
+			<div class="contents-label">Training and Development</div>
+			<div>
+				{% include 'body_training.html' %}
+			</div>
+		</div>
+		<!--- Academic Background-->
+		<div class="contents-default">
+			<div class="contents-label">Academic Background</div>
+			<div>
+				{% include 'body_acads.html' %}
+			</div>
+		</div>
+{% endblock %}

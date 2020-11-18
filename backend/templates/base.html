@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+	<head>
+		{% load static %}
+		<link rel="stylesheet" href= "{% static 'main.css' %}">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+    </head>
+	<!--- Header and Navigation -->
+	<body>
+		<div id="grid-header-nav">
+			<div id="grid-header-logo">MARVIN TENSUAN</div>
+			<div id="grid-header-navlist">
+				<div style="text-align: right; margin-right: 20%;">Curriculum Vitae</div>
+				<div style="grid-column-start: 2;">About</div>
+				<div>Contact</div>
+			</div>
+		</div>		
+	{% block content %}
+    {% endblock%}
+
+	
+    	<div class="grid-footer">Created by Marvin Tensuan</div>
+	</body>
+</html>
