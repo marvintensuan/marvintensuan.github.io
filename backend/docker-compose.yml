@@ -3,6 +3,22 @@ version: "3.8"
 services:
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: >
+      gunicorn backend.wsgi:application --bind 0.0.0.0:8000 --workers=4
     ports:
       - "8000:8000"
+    volumes:
+      - static:/static/
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    image: nginx:mainline-alpine
+    restart: always 
+    ports:
+      - "80:80"
+    volumes:  
+    - static:/static
+    depends_on:
+      - web
+volumes:
+  static:
