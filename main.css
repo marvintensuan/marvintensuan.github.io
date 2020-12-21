@@ -3,7 +3,17 @@ body {margin: 0;
     font-family: sans-serif;
 }
 
-#grid-header-nav{
+footer{
+    display: grid;
+    align-content: center;
+    text-align: center;
+    font: 18px Calibri;
+    color: white;
+    background-color: #004723;
+    min-height: 10em;
+}
+
+header{
     display: grid;
     align-content: center;
     background-color: #004723;
@@ -27,15 +37,7 @@ body {margin: 0;
 }
 
 
-.grid-footer{
-    display: grid;
-    align-content: center;
-    text-align: center;
-    font: 18px Calibri;
-    color: white;
-    background-color: #004723;
-    min-height: 35%;
-}
+
 .grid-body-title{
     display: grid;
     text-align: center;
@@ -43,13 +45,14 @@ body {margin: 0;
 }
 
 .contents-default{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-left: 5%;
-    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0% 5% 5% 5%;
+    justify-content: space-between;
 }
 .contents-label{
     font-family: Ubuntu;
-    font-size: 2.8em;
-    margin: 0px 20px 0px 0px;
+    font-size: 3em;
+    min-width: 40%;
+    max-width: 550px;
 }
