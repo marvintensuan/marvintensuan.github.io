@@ -190,7 +190,9 @@
         </div>
         <div class="card-deck mb-5">
             <div class="card bg-bg2">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="mx-auto mt-5">
+                    <img src="img/web.png" class="card-img-top img-fluid" id="img-web">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">cv-django</h5>
                     <p class="card-text">
@@ -202,7 +204,9 @@
                 </div>
             </div>
             <div class="card bg-bg2">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="mx-auto mt-5">
+                    <img src="img/cloud.png" class="card-img-top img-fluid" id="img-cloud">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">cloud-sql-proxy-wrapper</h5>
                     <p class="card-text">
@@ -217,7 +221,9 @@
                 </div>
             </div>
             <div class="card bg-bg2">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="mx-auto mt-5">
+                    <img src="img/db.png" class="card-img-top img-fluid" id="img-db">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">Reddit-Data-Pipeline</h5>
                     <p class="card-text">
@@ -231,7 +237,9 @@
         </div>
         <div class="card-deck">
             <div class="card bg-bg2">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="mx-auto mt-5">
+                    <img src="img/notebook.png" class="card-img-top img-fluid" id="img-notebook">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">FX Rates Scraping</h5>
                     <p class="card-text">
@@ -243,7 +251,9 @@
                 </div>
             </div>
             <div class="card bg-bg2">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="mx-auto mt-5">
+                    <img src="img/pandas.png" class="card-img-top img-fluid" id="img-pandas">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">Pandas-Tutorial</h5>
                     <p class="card-text">
@@ -258,7 +268,9 @@
                 </div>
             </div>
             <div class="card bg-bg2">
-                <img src="..." class="card-img-top" alt="...">
+                <div class="mx-auto mt-5">
+                    <img src="img/money.png" class="card-img-top img-fluid" id="img-money">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">CCY-Pairing-Classification</h5>
                     <p class="card-text">
@@ -305,26 +317,36 @@
             if (document.getElementById("light-dark").innerText == "Dark"){
                 document.documentElement.setAttribute('data-theme', 'dark')
                 //button
-                $("#light-dark").addClass("btn-light")
-                $("#light-dark").removeClass("btn-dark")
+                $("#light-dark").addClass("btn-light").removeClass("btn-dark")
                 document.getElementById("light-dark").innerText = "Light"
                 $("body").addClass("text-white")
                 $(".jumbotron").addClass("bg-dark")
                 $("hr").addClass("border-white")
                 $("#img-switch1").attr('src', 'img/hourglass-primary.png')
                 $("#img-switch2").attr('src', 'img/cmd-line-primary.png')
+                $("#img-pandas").attr('src', 'img/pandas-primary.png')
+                $("#img-web").attr('src', 'img/web-primary.png')
+                $("#img-cloud").attr('src', 'img/cloud-primary.png')
+                $("#img-db").attr('src', 'img/db-primary.png')
+                $("#img-notebook").attr('src', 'img/notebook-primary.png')
+                $("#img-money").attr('src', 'img/money-primary.png')
             }
             else {
                 document.documentElement.setAttribute('data-theme', 'light')
                 //button
-                $("#light-dark").addClass("btn-dark");
-                $("#light-dark").removeClass("btn-light");
+                $("#light-dark").addClass("btn-dark").removeClass("btn-light")
                 document.getElementById("light-dark").innerText = "Dark";
                 $("body").removeClass("text-white")
                 $(".jumbotron").removeClass("bg-dark")
                 $("hr").removeClass("border-white")
                 $("#img-switch1").attr('src', 'img/hourglass.png')
                 $("#img-switch2").attr('src', 'img/cmd-line.png')
+                $("#img-pandas").attr('src', 'img/pandas.png')
+                $("#img-web").attr('src', 'img/web.png')
+                $("#img-cloud").attr('src', 'img/cloud.png')
+                $("#img-db").attr('src', 'img/db.png')
+                $("#img-notebook").attr('src', 'img/notebook.png')
+                $("#img-money").attr('src', 'img/money.png')
             }
         }
         let toggleButton = document.getElementById("light-dark")
