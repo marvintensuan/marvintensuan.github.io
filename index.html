@@ -85,7 +85,7 @@
                 Python Dev.
             </p>
             <hr class="my-4">
-            <p>Scripting. Data Science. Back-end developer.</p>
+            <p>Scripting. Data Science. Backend developer.</p>
         </div>
         <div class="mx-auto mb-3">
             <button type="button" class="btn btn-dark" id="light-dark">Dark</button>
@@ -148,13 +148,15 @@
                     Visual Basic for Applications, Stack Overflow's Most Dreaded Language for 2019 and 2020, and VBScript for SAP GUI scripting.
                 </p>
                 <p>
-                    I know Python for <span id="know-python">_</span> years now.
+                    I've known Python for <span id="know-python">_</span> years now.
                     Language aside, I love the community behind it and its massive resources available online.
                 </p>
                 <p>
                     At the moment, I am learning a compiled, statically-typed language Kotlin.
+                    Other languages I've been exposed to include Octave (a free MATLAB alternative I used in Andrew Ng's Machine Learning);
+                    Pascal (first language taught to me in formal instruction); HTML, CSS and Javascript (for creating websites);
+                    and last but not the least, Scratch for CS50's Week 0 Project.
                 </p>
-                <p>I am looking forward to be a programmer at a more professional capacity!</p>
             </div>
         </div>
         <hr class="my-5">
@@ -165,17 +167,14 @@
             <div class="col-sm-6 order-sm-1 text-justify">
                 <p>
                     The bulk of programming tasks I do as a professional is related to developing reusable scripts.
+                    I started to use Python soon as I discovered how easy it is to use compared to VBA's <span class="text-monospace">FileSystemObject</span>.
                 </p>
                 <p>
-                    For Data Science, I am mainly familiar with tools surrounding Jupyter Notebooks,
-                    especially for implementations like Jupyter Lab and nteract.
+                    Due to its prominence in the Data Science community, Python has since offered me
+                    tools like Jupyter Notebooks which redefined my work.
                 </p>
                 <p>
-                    I'm also versed in basic web development, primarily back-end.
-                    I know the basics of web development frameworks such as Django and Flask.
-                    Relational Databases and Systems Analysis and Design wer epart of my undergrad studies.
-                    Moreover, I have projects dealing with document database such as Firestore.
-                    As an accountant, my day-to-day is pretty much involved with SAP.
+                    Lately, I'm enthralled by distributed systems &mdash; making computers talk to each other.
                 </p>
             </div>
         </div>
@@ -186,7 +185,7 @@
             <h1 id="repo-title">My GitHub Repository</h1>
             <p>Work-in-progress... just like me.</p>
         </div>
-        <div class="card-deck mb-5">
+        <div class="card-deck w-75 mx-auto mb-5">
             <div class="card bg-bg2">
                 <div class="mx-auto mt-5">
                     <img src="img/web.png" class="card-img-top img-fluid" id="img-web">
@@ -195,6 +194,9 @@
                     <h5 class="card-title">cv-django</h5>
                     <p class="card-text">
                         My Curriculum Vitae website with a <code>Django</code> backend, deployed on <code>Google Cloud Run</code>.
+                    </p>
+                    <p class="card-text">
+                        Django uses Jinja to render information I stored in <code>Cloud SQL</code>.
                     </p>
                     <p class="card-text">
                         <a href="https://github.com/marvintensuan/cv-django">See repo.</a>
@@ -208,7 +210,7 @@
                 <div class="card-body">
                     <h5 class="card-title">cloud-sql-proxy-wrapper</h5>
                     <p class="card-text">
-                        A script to set-up Cloud SQL Proxy on my Windows machine.
+                        A script to set-up <code>Cloud SQL Proxy</code> on my Windows machine.
                     </p>
                     <p class="card-text">
                         Cloud SQL Proxy provides secure access to Google Cloud SQL instances without the need for Authorized Networks or for configuring SSL.
@@ -218,6 +220,8 @@
                     </p>
                 </div>
             </div>
+        </div>
+        <div class="card-deck w-75 mx-auto">
             <div class="card bg-bg2">
                 <div class="mx-auto mt-5">
                     <img src="img/db.png" class="card-img-top img-fluid" id="img-db">
@@ -225,43 +229,10 @@
                 <div class="card-body">
                     <h5 class="card-title">Reddit-Data-Pipeline</h5>
                     <p class="card-text">
-                        Utilizes <code>praw</code> (Python Reddit API Wrapper) and <code>google-cloud-firestrore</code> to store my personal Reddit data in a Firestore document database.
+                        Utilizes <code>praw</code> (Python Reddit API Wrapper) and <code>google-cloud-firestore</code> to store my personal Reddit data in a Firestore document database.
                     </p>
                     <p class="card-text">
                         <a href="https://github.com/marvintensuan/Reddit-Data-Pipeline">See repo.</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck">
-            <div class="card bg-bg2">
-                <div class="mx-auto mt-5">
-                    <img src="img/notebook.png" class="card-img-top img-fluid" id="img-notebook">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">FX Rates Scraping</h5>
-                    <p class="card-text">
-                        A Jupyter Notebook which features <code>pandas</code>  and <code>BeautifulSoup4</code> to scrape FX rates from two banks' websites.
-                    </p>
-                    <p class="card-text">
-                        <a href="https://github.com/marvintensuan/AUD-PHP-arbitrage">See repo.</a>
-                    </p>
-                </div>
-            </div>
-            <div class="card bg-bg2">
-                <div class="mx-auto mt-5">
-                    <img src="img/pandas.png" class="card-img-top img-fluid" id="img-pandas">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Pandas-Tutorial</h5>
-                    <p class="card-text">
-                        An introductory tutorial for Python and <code>pandas</code>.
-                    </p>
-                    <p class="card-text">
-                        <a href="https://github.com/marvintensuan/Pandas-Tutorial">See repo.</a>
-                    </p>
-                    <p class="card-text">
-                        Also available on <a href="https://www.kaggle.com/marvintensuan/python-and-pandas-walkthrough">Kaggle</a>
                     </p>
                 </div>
             </div>
@@ -276,6 +247,55 @@
                     </p>
                     <p class="card-text">
                         <a href="https://github.com/marvintensuan/CCY-Pairing-Classification">See repo.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <h1>Jupyter Notebooks</h1>
+        </div>
+        <div class="card-deck mt-3 mb-3">
+            <div class="card bg-bg2">
+                <div class="mx-auto mt-5">
+                    <img src="img/pandas.png" class="card-img-top img-fluid" id="img-pandas">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pandas-Tutorial</h5>
+                    <p class="card-text">
+                        An introductory tutorial for Python and <code>pandas</code>.
+                    </p>
+                    <p class="card-text text-center">
+                        <a href="https://github.com/marvintensuan/Pandas-Tutorial">Github</a> |
+                        <a href="https://www.kaggle.com/marvintensuan/python-and-pandas-walkthrough">Kaggle</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-bg2">
+                <div class="mx-auto mt-5">
+                    <img src="img/notebook.png" class="card-img-top img-fluid img-notebook">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Who Are VBA Developers?</h5>
+                    <p class="card-text">
+                        Uses <code>dataclass</code> and <code>collections.Counter</code>
+                        to generate insights from Stack Overflow Survey 2020 results.
+                    </p>
+                    <p class="card-text text-center">
+                        <a href="https://www.kaggle.com/marvintensuan/who-are-vba-developers">Kaggle</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card bg-bg2">
+                <div class="mx-auto mt-5">
+                    <img src="img/notebook.png" class="card-img-top img-fluid img-notebook">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">FX Rates Scraping</h5>
+                    <p class="card-text">
+                        A Jupyter Notebook which features <code>pandas</code>  and <code>BeautifulSoup4</code> to scrape FX rates from two banks' websites.
+                    </p>
+                    <p class="card-text text-center">
+                        <a href="https://github.com/marvintensuan/AUD-PHP-arbitrage">Github</a>
                     </p>
                 </div>
             </div>
@@ -326,7 +346,7 @@
                 $("#img-web").attr('src', 'img/web-primary.png')
                 $("#img-cloud").attr('src', 'img/cloud-primary.png')
                 $("#img-db").attr('src', 'img/db-primary.png')
-                $("#img-notebook").attr('src', 'img/notebook-primary.png')
+                $(".img-notebook").attr('src', 'img/notebook-primary.png')
                 $("#img-money").attr('src', 'img/money-primary.png')
             }
             else {
@@ -343,7 +363,7 @@
                 $("#img-web").attr('src', 'img/web.png')
                 $("#img-cloud").attr('src', 'img/cloud.png')
                 $("#img-db").attr('src', 'img/db.png')
-                $("#img-notebook").attr('src', 'img/notebook.png')
+                $(".img-notebook").attr('src', 'img/notebook.png')
                 $("#img-money").attr('src', 'img/money.png')
             }
         }
