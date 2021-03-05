@@ -1,0 +1,22 @@
+:root{
+    --body_bg: #f7f9f7;
+    --body_bg2: white;
+    --body_hf: #004723;
+}
+[data-theme="dark"] {
+    --body_bg: #1c1e21;
+    --body_bg2: #343a40;
+    --body_hf: #007bff;
+}
+body{
+    background-color: var(--body_bg);
+}
+.bg-hf{
+    background-color: var(--body_hf);
+}
+.bg-bg{
+    background-color: var(--body_bg);
+}
+.bg-bg2{
+    background-color: var(--body_bg2);
+}
