@@ -70,3 +70,9 @@ $("#repo-title").hover(
 // Calculate work experiences
 let today = new Date()
 $("#work-xp").text(today.getFullYear() - 2018)
+
+// Load image from external sources
+$(window).scroll(function(){
+        $("#img-unsplash-1").attr('src', "https://images.unsplash.com/photo-1615001257674-351efb7d40ac")
+    }
+)
