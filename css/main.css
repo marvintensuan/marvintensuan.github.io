@@ -20,3 +20,8 @@ body{
 .bg-bg2{
     background-color: var(--body_bg2);
 }
+
+#img-unsplash-1{
+    background-position: center center;
+    background-repeat: no-repeat;
+}

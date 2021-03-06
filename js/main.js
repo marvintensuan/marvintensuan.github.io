@@ -61,7 +61,7 @@ $("#repo-title").hover(
 });
 
 let today = new Date()
-$("#know-python").text(today.getFullYear() - 2018)
+$("#work-xp").text(today.getFullYear() - 2018)
 
 $(function(){
     $(window).bind("resize",function(){
