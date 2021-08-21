@@ -1,6 +1,3 @@
-VAR.py
-Dockerfile
-admin
-pyenv.cfg
-Lib
-Scripts
+node_modules
+*.temp*
+*.cache*
