@@ -44,7 +44,7 @@ jobs:
         run: yarn docs:build
 
       - name: Deploy to GitHub Pages
-        uses: marvintensuan/marvintensuan.github.io@v2.0.0
+        uses: marvintensuan/marvintensuan.github.io@master
         with:
           # deploy to gh-pages branch
           target_branch: gh-pages
