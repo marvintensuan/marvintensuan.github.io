@@ -46,7 +46,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: marvintensuan/marvintensuan.github.io@v2.0.0
         with:
-          branch: master
           # deploy to gh-pages branch
           target_branch: gh-pages
           # deploy the default output dir of VuePress
