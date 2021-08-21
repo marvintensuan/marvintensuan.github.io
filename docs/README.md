@@ -19,7 +19,7 @@ head:
 <style>
 code {
     color: #E83E8C;
-    font-size: 0.9em;
+    font-size: 0.8em;
     word-wrap: break-word;
     font-family: 'Courier New', monospace;
 }
