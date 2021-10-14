@@ -19,7 +19,7 @@
 
 ## Hackathon
 
-- [tidecaller](/marvintensuan/tidecaller) - Official entry to Project SPARTA 2021 Hackathon. A FastAPI web application which is a complete refactor of the existing sensors API endpoint from a government weather website.
+- [tidecaller](https://github.com/marvintensuan/tidecaller) - Official entry to Project SPARTA 2021 Hackathon. A FastAPI web application which is a complete refactor of the existing sensors API endpoint from a government weather website.
 
 ## Miscellaneous
 - [Pandas-Tutorial](https://www.kaggle.com/marvintensuan/python-and-pandas-walkthrough) — An introductory tutorial for Python and pandas presented to my colleagues.
