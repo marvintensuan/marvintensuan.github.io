@@ -1,18 +1,17 @@
 # Work Stuff
 
----
-
-**Did you know!?**
-
+::: tip Did you know!?
 Flask's WSGI library `Werkzeug`'s name came from the German words werk (“work”) and zeug (“stuff”).
+:::
 
----
+This section is for projects I've done for the organizations I've worked for. Source codes are not available.
 
-This section is for projects I've done for the organizations I've worked for. Source codes are not available
+## Citi (2021 - *present*)
 
-## Citi (2021 - ???)
-
-Coming soon! :) 2021-09-06
+- Developed a CLI application to manage day-to-day processes.
+    - Runs custom scripts, including non-Python scripts, with `subprocess.Popen`.
+    - personal customizations with `rich`
+- Automation scripts (Selenium, `pyautogui`, etc.)
 
 ## Deutsche Bank (2018 - 2021)
 
