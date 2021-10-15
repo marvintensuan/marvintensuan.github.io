@@ -9,7 +9,7 @@
 
 ## Web Development
 
-- [cv-flask](https://github.com/marvintensuan/cv-flask) — My Curriculum Vitae website with a Flask backend, deployed on Google Cloud Run. Flask uses Jinja to render information I stored in Firestore. This is a revamp of an earlier project [cv-django](https://github.com/marvintensuan/cv-django).
+- [cv-flask](https://github.com/marvintensuan/cv-flask) — [My Curriculum Vitae website](https://www.marvintensuan.com/) with a Flask backend, deployed on Google Cloud Run. Flask uses Jinja to render information I stored in Firestore. This is a revamp of an earlier project [cv-django](https://github.com/marvintensuan/cv-django).
 - [marvintensuan.github.io](https://github.com/marvintensuan/marvintensuan.github.io) — a Github Pages site for my main Github account (this website). :) At this moment, it is currently a `Vuepress` website.
 
 ## Scripting 
